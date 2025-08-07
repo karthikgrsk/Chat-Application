@@ -49,7 +49,7 @@
             const chat = document.getElementById('chat');
             const messageElement = document.createElement('div');
             messageElement.textContent = message.sender + ': ' + message.content;
-            messageElement.className = "border-bottom mb-1";
+            messageElement.className = "mb-1";
             chat.appendChild(messageElement);
             chat.scrollTop = chat.scrollHeight;
         }
